@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Identifiers = void 0;
+var Identifiers;
+(function (Identifiers) {
+    Identifiers[Identifiers["CONNECTED_PING"] = 0] = "CONNECTED_PING";
+    Identifiers[Identifiers["UNCONNECTED_PING"] = 1] = "UNCONNECTED_PING";
+    Identifiers[Identifiers["UNCONNECTED_PONG"] = 28] = "UNCONNECTED_PONG";
+    Identifiers[Identifiers["CONNECTED_PONG"] = 3] = "CONNECTED_PONG";
+    Identifiers[Identifiers["OPEN_CONNECTION_REQUEST_1"] = 5] = "OPEN_CONNECTION_REQUEST_1";
+    Identifiers[Identifiers["OPEN_CONNECTION_REPLY_1"] = 6] = "OPEN_CONNECTION_REPLY_1";
+    Identifiers[Identifiers["OPEN_CONNECTION_REQUEST_2"] = 7] = "OPEN_CONNECTION_REQUEST_2";
+    Identifiers[Identifiers["OPEN_CONNECTION_REPLY_2"] = 8] = "OPEN_CONNECTION_REPLY_2";
+    Identifiers[Identifiers["CONNECTION_REQUEST"] = 9] = "CONNECTION_REQUEST";
+    Identifiers[Identifiers["CONNECTION_REQUEST_ACCEPTED"] = 16] = "CONNECTION_REQUEST_ACCEPTED";
+    Identifiers[Identifiers["NEW_INCOMING_CONNECTION"] = 19] = "NEW_INCOMING_CONNECTION";
+    Identifiers[Identifiers["DISCONNECT_NOTIFICATION"] = 21] = "DISCONNECT_NOTIFICATION";
+    Identifiers[Identifiers["INCOMPATIBLE_PROTOCOL_VERSION"] = 25] = "INCOMPATIBLE_PROTOCOL_VERSION";
+    Identifiers[Identifiers["ACKNOWLEDGE_PACKET"] = 192] = "ACKNOWLEDGE_PACKET";
+    Identifiers[Identifiers["NACKNOWLEDGE_PACKET"] = 160] = "NACKNOWLEDGE_PACKET";
+})(Identifiers = exports.Identifiers || (exports.Identifiers = {}));
